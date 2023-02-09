@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap" rel="stylesheet">
 
-<title>Forms - Demo Preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+<title>Contact Form</title>
 <meta content="noindex, nofollow" name="robots">
-<!-- Include CSS File Here-->
+
 <link href="style.css" rel="stylesheet">
 </head>
     <body>
+        <br>
+       
+        <div id="back">
+        <a href="index.html"> GO BACK </a>
+        </div>
         <div id="first">
-            <form action="" method="post">
+            <form action=""method="post">
             <h1>Contact Form</h1>
                 <h4>Please fill all entries.</h4>
-                <label>Name :</label>
+                <label>Name:</label>
                 <input name="dname" placeholder="Your Name" type="text">
-                <label>Email :</label>
+                <label>Email:</label>
                 <input name="demail" placeholder="Your Email" type="text">
-                <label>Message :</label>
+                <label>Message:</label>
                 <textarea name="dmsg" placeholder="Message">
                 </textarea>
-                <input name="dsubmit" type="submit" value="Send">
+                <button id="button1" type="submit">Submit</button> 
+                <button id="button2" type="reset">Reset</button>
+                <img src="https://drive.google.com/thumbnail?id=1HIut3TdeXPtkSk_nykk0tIYBQAJ3KcDb" alt="cute" style="width:100px;height:100px;" id="cute">
             </form>
         </div>
+        
     </body>
 </html>
+
